@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+.btns{
+	width:800px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.btns>button{
+	width:100px;
+	margin:5px 50px;
+}
+
+.cartable{
+	width: 800px;
+	margin: 20px auto;
+	
+}
+
+.cartable>table{
+	width:100%;	
+}
+
+td{
+	width: 20%;
+	text-align: center;
+}
+
+th{
+	width: 20%;
+}
+
+
+.layer{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;	
+}
+
+.waittxt{
+	margin-top:40vh;
+	line-height: 100%;
+	width: 100%;
+	text-align: center;
+	color:red;
+	font-size:30px;
+}
